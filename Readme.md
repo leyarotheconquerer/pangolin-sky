@@ -42,10 +42,13 @@ Requirements
 		+ Platforms have connection points for
 			* Adding
 			* Receiving
+			* These are direction?
 	- Player can pick up platforms
 	- Player spawns in level
 	- Player can leave level
 	- Player can restart level
+		+ Player falling off restarts
+		+ Player falling to death restarts after death
 * Player
 	- Can walk
 	- Can jump
@@ -55,7 +58,9 @@ Requirements
 		+ Can circle level when zoomed
 	- Can place platforms
 		+ Only place them where allowed
-		+ Allow rotation for multiple connection point?
+		+ Once placed, they must stay placed unless the level restarts
+			* Exception: while in the zoomed mode, remember which have been placed.
+				Don't commit until zooming back in
 	- Can grapple?
 * Sounds
 	- Player
