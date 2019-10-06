@@ -133,3 +133,9 @@ Schedule
 * Levels (Complete)
 * Sounds
 * Polish
+
+License Stuff
+-------------
+
+Font Peleja used by permission under SIL OFL
+https://fontlibrary.org/en/font/peleja
